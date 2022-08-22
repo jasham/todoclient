@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>Base Page Test</div>
+  return <div className={styles.container}>Base Page Test 2</div>;
 };
 
 export default Home;
