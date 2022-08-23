@@ -5,7 +5,11 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>Base Page Test 23</div>;
+  return (
+    <div className={styles.container}>
+      {/* <MobileHeader></MobileHeader> */}
+    </div>
+  );
 };
 
 export default Home;
