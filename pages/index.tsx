@@ -1,13 +1,12 @@
 import type { NextPage } from 'next';
 import React from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import WebView from '../modules/webView';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       {/* <MobileHeader></MobileHeader> */}
+      <WebView />
     </div>
   );
 };
