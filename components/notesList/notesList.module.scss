@@ -1,7 +1,15 @@
 .main {
   height: 100vh;
-  width: 15rem;
-  background-color: #ffffff;
+  width: 20rem;
+  background-color: #c8c8c8;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.buttonWrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
 }

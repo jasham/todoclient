@@ -18,7 +18,7 @@ const NoteEditor = () => {
   return (
     <div className={styles.main}>
       <Slate editor={editor} value={initialValue}>
-        <Editable />
+        <Editable style={{ height: '100%' }} />
       </Slate>
     </div>
   );
