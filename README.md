@@ -104,22 +104,37 @@ This web app is developed to make your notes easily accesible without stealing y
 
 ### 🖼️ Screenshot
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![alt text](https://github.com/jasham/todoclient/main/public/static/img/simplenoteapp.PNG?raw=true)
 
-## Getting Started
+## 📚 Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
+
+### 👇🏽 Prerequisites
+
+Before installation, please make sure you have already installed the following tools:
+
+- [Git](https://git-scm.com/downloads)
+- [NodeJs](https://nodejs.org/en/download/)
+
+### 🛠️ Installation
+
+1. [Fork](https://github.com/jasham/todoclient/fork) the project. Click on the fork icon in the top right to get started
+2. Clone the project, you can use the following command:
+
+   ```bash
+   git clone https://github.com/<your-github-username>/todoclient
+   ```
+
+3. Navigate to the project directory
+   ```bash
+   cd todoclient
+   ```
+
+. Install dependencies with `yarn install` in both client and server folder
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<p align="right">(<a href="#top">back to top</a>)</p>
