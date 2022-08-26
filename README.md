@@ -1,5 +1,3 @@
-<div id="top"></div>
-
 <div align="center">
   <h2>Simple Note App</h2>
   <p>An app to help you to save notes.</p>
@@ -18,30 +16,93 @@
   <img alt="issues" src="https://img.shields.io/github/issues/jasham/todoclient?style=flat"> </br>
 </div>
 
-
-## Simple note app
 This web app is developed to make your notes easily accesible without stealing your data!!
 
 ### ✨ Built With
 
-
- <table>
-     <tbody>
-  <tr>
-   <td align="Center" width="30%"> 
- <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67" width="36" height="36" alt="Next" /></a>
-    <br>Next.js
-    </td>   
+<table>
+  <tbody>
+    <tr>
+      <td align="Center" width="30%"> 
+        <a 
+          href="https://reactjs.org/"
+          target="_blank" 
+          rel="noreferrer"
+        >
+          <img src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67" width="36" height="36" alt="Next" />
+        </a>
+        <br>Next.js
+      </td>   
+      <td align="Center" width="30%">
+        <a 
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          target="_blank" 
+          rel="noreferrer"
+        >
+          <img 
+            src="https://static.npmjs.com/255a118f56f5346b97e56325a1217a16.svg" 
+            width="36" height="36" alt="Javascript" 
+          />
+        </a>
+        <br>TypeScript
+      </td>
+      <td align="Center" width="30%">
+        <a 
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          target="_blank" 
+          rel="noreferrer"
+        >
+          <img 
+            src="https://draftjs.org/img/draftjs-logo.svg" 
+            width="36" height="36" alt="Javascript" 
+          />
+        </a>
+        <br>Draft.js
+      </td> 
+    </tr>
+    <tr>
+      <td align="Center" width="30%"> 
+        <a 
+          href="https://reactjs.org/"
+          target="_blank" 
+          rel="noreferrer"
+        >
+          <img src="https://images.opencollective.com/husky/7bdbfe1/logo/256.png" width="36" height="36" alt="Next" />
+        </a>
+        <br>Husky
+      </td>   
+      <td align="Center" width="30%">
+        <a 
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          target="_blank" 
+          rel="noreferrer"
+        >
+          <img 
+            src="https://avatars.githubusercontent.com/u/6019716?s=64&v=4" 
+            width="36" height="36" alt="Javascript" 
+          />
+        </a>
+        <br>Eslint
+      </td>  
+      <td align="Center" width="30%">
+        <a 
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          target="_blank" 
+          rel="noreferrer"
+        >
+          <img 
+            src=" https://prettier.io/icon.png" 
+            width="36" height="36" alt="Javascript" 
+          />
+        </a>
+        <br>Prettier
+      </td>
+    </tr>
    
-   <td align="Center" width="30%">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
-    <br>JavaScript
-    </td>   
-      </tr>
-</tbody>
-  </table>
+  </tbody>
+</table>
 
- </table>
+### 🖼️ Screenshot
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -62,4 +123,3 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
