@@ -102,9 +102,13 @@ This web app is developed to make your notes easily accesible without stealing y
   </tbody>
 </table>
 
+<br>
+
 ### 🖼️ Screenshot
 
 ![alt text](https://github.com/jasham/todoclient/blob/main/public/static/img/simplenoteapp.PNG?raw=true)
+
+<br>
 
 ## 📚 Getting Started
 
