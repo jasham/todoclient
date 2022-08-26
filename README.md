@@ -25,36 +25,36 @@ This web app is developed to make your notes easily accesible without stealing y
     <tr>
       <td align="Center" width="30%"> 
         <a 
-          href="https://reactjs.org/"
+          href="https://nextjs.org/"
           target="_blank" 
           rel="noreferrer"
         >
-          <img src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67" width="36" height="36" alt="Next" />
+          <img src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67" width="36" height="36" alt="Next.js" />
         </a>
         <br>Next.js
       </td>   
       <td align="Center" width="30%">
         <a 
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          href="https://www.typescriptlang.org/" 
           target="_blank" 
           rel="noreferrer"
         >
           <img 
             src="https://static.npmjs.com/255a118f56f5346b97e56325a1217a16.svg" 
-            width="36" height="36" alt="Javascript" 
+            width="36" height="36" alt="Typescript" 
           />
         </a>
         <br>TypeScript
       </td>
       <td align="Center" width="30%">
         <a 
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          href="https://draftjs.org/" 
           target="_blank" 
           rel="noreferrer"
         >
           <img 
             src="https://draftjs.org/img/draftjs-logo.svg" 
-            width="36" height="36" alt="Javascript" 
+            width="36" height="36" alt="Draft.js" 
           />
         </a>
         <br>Draft.js
@@ -63,36 +63,36 @@ This web app is developed to make your notes easily accesible without stealing y
     <tr>
       <td align="Center" width="30%"> 
         <a 
-          href="https://reactjs.org/"
+          href="https://typicode.github.io/husky"
           target="_blank" 
           rel="noreferrer"
         >
-          <img src="https://images.opencollective.com/husky/7bdbfe1/logo/256.png" width="36" height="36" alt="Next" />
+          <img src="https://images.opencollective.com/husky/7bdbfe1/logo/256.png" width="36" height="36" alt="Husky" />
         </a>
         <br>Husky
       </td>   
       <td align="Center" width="30%">
         <a 
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          href="https://eslint.org/" 
           target="_blank" 
           rel="noreferrer"
         >
           <img 
             src="https://avatars.githubusercontent.com/u/6019716?s=64&v=4" 
-            width="36" height="36" alt="Javascript" 
+            width="36" height="36" alt="Eslint" 
           />
         </a>
         <br>Eslint
       </td>  
       <td align="Center" width="30%">
         <a 
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+          href="https://prettier.io/" 
           target="_blank" 
           rel="noreferrer"
         >
           <img 
-            src=" https://prettier.io/icon.png" 
-            width="36" height="36" alt="Javascript" 
+            src="https://prettier.io/icon.png" 
+            width="36" height="36" alt="Prettier" 
           />
         </a>
         <br>Prettier
