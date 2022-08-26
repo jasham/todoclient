@@ -104,7 +104,7 @@ This web app is developed to make your notes easily accesible without stealing y
 
 ### 🖼️ Screenshot
 
-![alt text](https://github.com/jasham/todoclient/main/public/static/img/simplenoteapp.PNG?raw=true)
+![alt text](https://github.com/jasham/todoclient/blob/main/public/static/img/simplenoteapp.PNG?raw=true)
 
 ## 📚 Getting Started
 
