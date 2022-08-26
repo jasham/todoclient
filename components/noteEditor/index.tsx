@@ -1,27 +1,61 @@
-// Import React dependencies.
 import React, { useState } from 'react';
-// Import the Slate editor factory.
-import { createEditor } from 'slate';
+import dynamic from 'next/dynamic';
 
-// Import the Slate components and React plugin.
-import { Slate, Editable, withReact } from 'slate-react';
-import styles from './noteEditor.module.scss';
-const NoteEditor = () => {
-  const [editor] = useState(() => withReact(createEditor()));
-  // Add the initial value.
-  const initialValue = [
-    {
-      type: 'paragraph',
-      children: [{ text: 'A line of text in a paragraph.' }],
-    },
-  ];
+const QuillNoSSRWrapper = dynamic(import('react-quill'), {
+  ssr: false,
+  loading: () => <p>Loading ...</p>,
+});
+
+const modules = {
+  toolbar: [
+    [{ header: '1' }, { header: '2' }, { font: [] }],
+    [{ size: [] }],
+    ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+    [
+      { list: 'ordered' },
+      { list: 'bullet' },
+      { indent: '-1' },
+      { indent: '+1' },
+    ],
+    ['link'],
+    ['clean'],
+  ],
+  clipboard: {
+    // toggle to add extra line breaks when pasting HTML:
+    matchVisual: false,
+  },
+};
+/*
+ * Quill editor formats
+ * See https://quilljs.com/docs/formats/
+ */
+const formats = [
+  'header',
+  'font',
+  'size',
+  'bold',
+  'italic',
+  'underline',
+  'strike',
+  'blockquote',
+  'list',
+  'bullet',
+  'indent',
+  'link',
+];
+
+const Editor = () => {
+  const [evalue, setEditorValue] = useState();
+
   return (
-    <div className={styles.main}>
-      <Slate editor={editor} value={initialValue}>
-        <Editable style={{ height: '100%' }} />
-      </Slate>
-    </div>
+    <QuillNoSSRWrapper
+      modules={modules}
+      formats={formats}
+      theme="snow"
+      // onChange={setEditorValue}
+      value={evalue}
+    />
   );
 };
 
-export default NoteEditor;
+export default Editor;
