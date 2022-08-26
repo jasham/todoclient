@@ -1,6 +1,6 @@
 <div align="center">
   <h2>Simple Note App</h2>
-  <p>An app to help you to save notes.</p>
+  <p>An app to help in making notes.</p>
 
   <p align="center">
     <a href="https://github.com/jasham/todoclient/issues/new?assignees=&labels=bug&template=bug_report.md&title=">View Demo</a>
@@ -16,7 +16,7 @@
   <img alt="issues" src="https://img.shields.io/github/issues/jasham/todoclient?style=flat"> </br>
 </div>
 
-This web app is developed to make your notes easily accesible without stealing your data!!
+This web app is developed to make your notes easily accessible without stealing your data!!
 
 ### ✨ Built With
 
