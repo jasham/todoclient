@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
-
+import styles from './noteEditor.module.scss';
 const QuillNoSSRWrapper = dynamic(import('react-quill'), {
   ssr: false,
   loading: () => <p>Loading ...</p>,
@@ -48,13 +48,26 @@ const Editor = () => {
   const [evalue, setEditorValue] = useState();
 
   return (
-    <QuillNoSSRWrapper
-      modules={modules}
-      formats={formats}
-      theme="snow"
-      // onChange={setEditorValue}
-      value={evalue}
-    />
+    <div className={styles.main}>
+      <div className={styles.titleHeader}>
+        <input
+          // onChange={props.onChange}
+          // value={props.value}
+          placeholder="Title"
+        />
+        <div>
+          <img src="/static/img/diskette.png" alt="diskette.png" width={20} />
+          <img src="/static/img/delete.png" alt="delete.png" width={20} />
+        </div>
+      </div>
+      <QuillNoSSRWrapper
+        modules={modules}
+        formats={formats}
+        theme="snow"
+        // onChange={setEditorValue}
+        value={evalue}
+      />
+    </div>
   );
 };
 

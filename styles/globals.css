@@ -22,16 +22,23 @@ a {
   padding-top: 3rem;
   margin-right: 1px;
   margin-left: 1px;
+  height: 100%;
 }
 
 .ql-toolbar {
   position: absolute;
-  top: 0;
+  top: 3rem;
   left: 0;
   width: 97%;
   border: none !important;
+  background-color: #f7f7f7;
+  z-index: 10000;
 }
 
 .ql-container {
   border: none !important;
+}
+
+.ql-editor {
+  padding-top: 4rem !important;
 }
