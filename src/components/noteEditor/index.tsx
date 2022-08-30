@@ -51,7 +51,6 @@ const Editor = () => {
   const globalContext = useContext(GlobalContext);
   const onChangeEditorData = (value: string) => {
     let { noteList, currentNoteIndex } = globalContext?.state;
-    console.log('Here is current index', currentNoteIndex);
     noteList[currentNoteIndex].note = value;
     globalContext.dispatch({
       type: ADD_NEW_NOTE,
