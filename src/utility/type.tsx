@@ -1,0 +1,3 @@
+export const ADD_NEW_NOTE = 'ADD_NEW_NOTE';
+export const APPEND_NOTE = 'APPEND_NOTE';
+export const CURRENT_NOTE_INDEX = 'CURRENT_NOTE_INDEX';

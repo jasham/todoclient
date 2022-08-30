@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import dynamic from 'next/dynamic';
 import styles from './noteEditor.module.scss';
+import { GlobalContext } from '../../../pages/_app';
+import { ADD_NEW_NOTE, APPEND_NOTE } from '../../utility/type';
+
 const QuillNoSSRWrapper = dynamic(import('react-quill'), {
   ssr: false,
   loading: () => <p>Loading ...</p>,
@@ -45,14 +48,35 @@ const formats = [
 ];
 
 const Editor = () => {
-  const [evalue, setEditorValue] = useState();
+  const globalContext = useContext(GlobalContext);
+  const onChangeEditorData = (value: string) => {
+    let { noteList, currentNoteIndex } = globalContext?.state;
+    console.log('Here is current index', currentNoteIndex);
+    noteList[currentNoteIndex].note = value;
+    globalContext.dispatch({
+      type: ADD_NEW_NOTE,
+      value: noteList,
+    });
+  };
+  const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    let { noteList, currentNoteIndex } = globalContext?.state;
+    noteList[currentNoteIndex].noteTitle = event.target.value;
+    globalContext.dispatch({
+      type: ADD_NEW_NOTE,
+      value: noteList,
+    });
+  };
 
   return (
     <div className={styles.main}>
       <div className={styles.titleHeader}>
         <input
-          // onChange={props.onChange}
-          // value={props.value}
+          onChange={onChange}
+          value={
+            globalContext?.state?.noteList[
+              globalContext?.state?.currentNoteIndex
+            ]?.noteTitle
+          }
           placeholder="Title"
         />
         <div>
@@ -64,8 +88,11 @@ const Editor = () => {
         modules={modules}
         formats={formats}
         theme="snow"
-        // onChange={setEditorValue}
-        value={evalue}
+        onChange={onChangeEditorData}
+        value={
+          globalContext?.state?.noteList[globalContext?.state?.currentNoteIndex]
+            ?.note
+        }
       />
     </div>
   );
